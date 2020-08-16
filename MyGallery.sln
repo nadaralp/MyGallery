@@ -11,7 +11,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGallery.DataAccess", "MyG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGallery.Service", "MyGallery.Service\MyGallery.Service.csproj", "{52525642-6605-4B73-856A-39C47AC39812}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{39AD715C-5453-43DA-B267-F401BFB6C2DB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyGallery.Client", "MyGallery.Client", "{13716AA9-3481-4FCF-8A5B-CFF4906D10A4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57027"
+		Debug.AspNetCompiler.PhysicalPath = "MyGallery.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57027\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57027"
+		Release.AspNetCompiler.PhysicalPath = "MyGallery.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57027\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57027"
+		SlnRelativePath = "MyGallery.Client\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +54,10 @@ Global
 		{52525642-6605-4B73-856A-39C47AC39812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52525642-6605-4B73-856A-39C47AC39812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52525642-6605-4B73-856A-39C47AC39812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13716AA9-3481-4FCF-8A5B-CFF4906D10A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13716AA9-3481-4FCF-8A5B-CFF4906D10A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13716AA9-3481-4FCF-8A5B-CFF4906D10A4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{13716AA9-3481-4FCF-8A5B-CFF4906D10A4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
